@@ -9,7 +9,14 @@
 <body>
     Hello 
     <script>
-console.log("hey");
+console.log("hello");
+let github_link = "https://jennifer-am.github.io/data.json";
+
+$.getJSON(github_link, function(data) {
+     //data is the JSON string
+     
+     console.log(data);
+});
     </script>
 </body>
 </html>
